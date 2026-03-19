@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Clone</title>
+    <!--CSS Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="gabarito-udemy">
+    <!--Navigation Bar-->
+
+        <div class="navbar">
+            <!--logo-->
+            <div class="navbar__sec1">
+                <img src="./images/logo.png" alt="Udemy Logo">
+            </div>
+            <!--categ 1-->
+            <div class="navbar__sec2">
+                <p>Explore</p>
+                <p>Subscribe</p>
+            </div>
+            <!--search box-->
+            <div class="navbar__sec3">
+                <i class="fa-solid fa-magnifying-glass" style="color: rgb(4, 4, 5);"></i>
+                <input type="text" placeholder="Search for anything">
+            </div>
+            <!--categ 2-->
+            <div class="navbar__sec4">
+                <p>Udemy Business</p>
+                <p>Teach on Udemy</p>
+                <!--<p>My learning</p>-->
+                <div class="Mylearning">
+                        <p>My learning</p>
+                         <div class="Mylearning__pop">
+                            <p class="pop">You did not purchase anything yet</p>
+                         </div>
+                </div>
+            </div>
+            <!--icons-->
+            <div class="navbar__sec5">
+                <i class="fa-solid fa-heart" style="color: rgb(4, 4, 5);"></i>
+                <i class="fa-solid fa-cart-arrow-down" style="color: rgb(4, 4, 5);"></i>
+                <i class="fa-solid fa-bell" style="color: rgb(4, 4, 5);"></i>
+            </div>
+            <!--profile-->
+            <div class="navbar__sec6">MK</div>
+        </div>
+
+        <!--Menu Bar-->
+        <div class="menu">
+            <p>Development</p>
+            <p>Business</p>
+            <p>Finance & Accounting</p>
+            <p>IT & Software</p>
+            <p>Office Productivity</p>
+            <p>Personal Development</p>
+            <p>Design</p>
+            <p>Marketing</p>
+            <p>Health & Fitness</p>
+        </div>
+
+    <!--Poster image-->
+    <div class="poster">
+        <img src="./images/Poster.webp" alt="Education Poster image">
+        <div class="poster__offer">
+            <h2>Save 25% on a year of learning</h2>
+            <p style="margin-top: 10px;">Personal Plan is your career companion for AI and more cutting-edge skills. Sale ends March 22. Terms apply.</p>
+            <button style="margin-top: 10px;">Save Now</button>
+        </div>
+    </div>
+
+    <!--Recommended-->
+    <div class="recommend">
+        <h1>Recommended for you</h1>
+        <p>Based on popular courses across learners</p>
+        <div class="recommend-container">
+            <div class="course-card">
+                <img src="./images/c1.jpg" alt="Python Bootcamp">
+                <h4>The Ultimate Python Bootcamp</h4>
+                <p>Hitesh Choudhary</p>
+                <p>4.6 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (312,450)
+                </p>
+                <p> &#8377 539 <del> &#8377 799</del></p>
+                <button>Bestseller</button>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c2.jpg" alt="React Training">
+                <h4>Basic to Advance React Training</h4>
+                <p>Brad Traversy</p>
+                <p>3.3 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (33,133)
+                </p>
+                <p> &#8377 519 <del> &#8377 799</del></p>
+                <button>Bestseller</button>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c3.jpg" alt="JavaScript">
+                <h4>100 days of HTML,CSS and JavaScript</h4>
+                <p>Jonas Schmedtmann</p>
+                <p>4.6 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (25,623)
+                </p>
+                <p> &#8377 839 <del> &#8377 5149</del></p>
+                <button>Bestseller</button>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c4.jpg" alt="Django">
+                <h4>Django Complete course</h4>
+                <p>Mark Winterbottom</p>
+                <p>4.5 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (9,763)
+                </p>
+                <p> &#8377 709 <del> &#8377 4339</del></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--Topics-->
+    <div class="topics">
+        <div class="topics__title">
+            <h1>Recommended Topics</h1>
+            <p>Explore topics that match your interests</p>
+            <div class="topics__div__search">
+                <div class="topics__search">
+                    <i class="fa-solid fa-magnifying-glass" style="color: rgb(4, 4, 5);"></i>
+                    <input type="text" placeholder="Search for anything">
+                </div>
+            </div>
+        </div>
+        <div class="topics__options">
+            <p>💻 Python</p>
+            <p>💻 Web Development</p>
+            <p>💻 Machine Learning</p>
+            <p>💻 Data Science</p>
+            <p>💻 JavaScript</p>
+            <p>💻 React</p>
+            <p>💻 AWS</p>
+            <p>💻 Cyber Security</p>
+            <p>💻 Drawing</p>
+            <p>💻 Digital Marketing</p>
+            <p>💻 Photoshop</p>
+            <p>💻 Excel</p>
+            <p>💻 SQL</p>
+            <p>💻 Java</p>
+            <p>💻 Unity</p>
+            <p>💻 Blockchain</p>
+            <p>💻 Node.js</p>
+            <p>💻 Photography</p>
+        </div>
+    </div>
+
+    <!--Most Popular Courses-->
+    <div class="popular-courses">
+        <h1>Most Popular Courses</h1>
+        <p>Top-rated courses loved by learners worldwide</p>
+
+        <div class="recommend-container">
+            <div class="course-card">
+                <img src="./images/p1.jpg" alt="Python Bootcamp">
+                <h4>The Complete Python Pro Bootcamp</h4>
+                <p>Dr. Angela Yu, Lead Instructor</p>
+                <p>4.7 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (416,450)
+                </p>
+                <p> &#8377 529 <del> &#8377 3,199</del></p>
+                <button>Bestseller</button>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/p2.jpg" alt="JavaScript">
+                <h4>The Complete JavaScript Course</h4>
+                <p>Jonas Schmedtmann</p>
+                <p>4.7 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (33,133)
+                </p>
+                <p> &#8377 589 <del> &#8377 3,549</del></p>
+                <button>Bestseller</button>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/p3.jpg" alt="C Programming">
+                <h4>C Programming Bootcamp</h4>
+                <p>Vlad Budnitski</p>
+                <p>4.6 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (9,972)
+                </p>
+                <p> &#8377 539 <del> &#8377 3,259</del></p>
+                <button>Bestseller</button>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/p4.jpg" alt="Complete Coding">
+                <h4>The Complete Coding for Beginners Course</h4>
+                <p>Edouard Renard</p>
+                <p>4.5 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (8,005)
+                </p>
+                <p> &#8377 559 <del> &#8377 3,379</del></p>
+                <button>Bestseller</button>
+            </div>
+            <div class="course-card">
+                <img src="./images/p5.jpg" alt="Java Programming">
+                <h4>Java Programming</h4>
+                <p>Scott Barrett</p>
+                <p>3.9 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (5,333)
+                </p>
+                <p> &#8377 529 <del> &#8377 3,179</del></p>
+                <button>Bestseller</button>
+            </div>
+            <div class="course-card">
+                <img src="./images/p6.jpg" alt="Python Programming">
+                <h4>Learn Python Programming</h4>
+                <p>Pavan Kumar</p>
+                <p>3.7 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (2,547)
+                </p>
+                <p> &#8377 559 <del> &#8377 3,229</del></p>
+                <button>Bestseller</button>
+            </div>
+            <div class="course-card">
+                <img src="./images/p7.jpg" alt="React Course">
+                <h4>The Ultimate React Course</h4>
+                <p>Jonas Schmedtmann</p>
+                <p>3.4 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (1,623)
+                </p>
+                <p> &#8377 579 <del> &#8377 3,229</del></p>
+                <button>Bestseller</button>
+            </div>
+            <div class="course-card">
+                <img src="./images/p8.jpg" alt="web development course">
+                <h4>Complete web development course</h4>
+                <p>Hitesh Choudhary</p>
+                <p>3.1 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (999)
+                </p>
+                <p> &#8377 519 <del> &#8377 799</del></p>
+                <button>Bestseller</button>
+            </div>
+            <div class="course-card">
+                <img src="./images/p9.jpg" alt=" C Programming">
+                <h4>Advanced C Programming Course</h4>
+                <p>Jonas Schmedtmann</p>
+                <p>2.6 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (623)
+                </p>
+                <p> &#8377 589 <del> &#8377 3,509</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./images/p10.jpg" alt="Go - The Complete Guide">
+                <h4>Go - The Complete Guide</h4>
+                <p>Maximilian Schwarzmüller</p>
+                <p>2.1 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (511)
+                </p>
+                <p> &#8377 529 <del> &#8377 3,089</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./images/c1.jpg" alt="Python Bootcamp">
+                <h4>The Ultimate Python Bootcamp</h4>
+                <p>Hitesh Choudhary</p>
+                <p>4.6 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (312,450)
+                </p>
+                <p> &#8377 539 <del> &#8377 799</del></p>
+                <button>Bestseller</button>
+            </div>
+            <div class="course-card">
+               <img src="./images/c3.jpg" alt="JavaScript">
+                <h4>100 days of HTML,CSS and JavaScript</h4>
+                <p>Jonas Schmedtmann</p>
+                <p>4.6 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 212, 59);"></i> (25,623)
+                </p>
+                <p> &#8377 839 <del> &#8377 5149</del></p>
+                <button>Bestseller</button>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer__sec1">
+        <div class="footer__sec1__p1">
+            <h3>About</h3>
+            <p>About us</p>
+            <p>Careers</p>
+            <p>Contact us</p>
+            <p>Blog</p>
+            <p>Investors</p>
+
+        </div>
+        <div class="footer__sec1__p2">
+            <h3>Discover Udemy</h3>
+            <p>Get the app</p>
+            <p>Teach on Udemy</p>
+            <p>Plans and Pricing</p>
+            <p>Affiliate</p>
+            <p>Help and Support</p>
+        </div>
+        <div class="footer__sec1__p3">
+            <h3>Udemy for Business</h3>
+            <p>Udemy Business</p>
+        </div>
+        <div class="footer__sec1__p4">
+            <h3>Legal & Accessibility</h3>
+            <p>Accessibility statement</p>
+            <p>Privacy policy</p>
+            <p>Sitemap</p>
+            <p>Terms</p>
+        </div>
+    </div>
+    <div class="footer__sec2">
+        <div class="footer__sec2__p1">
+            <img src="./images/logo.png" alt="Udemy Logo">
+            <p>&#169; 2026 Udemy, Inc.</p>
+        </div>
+        <div class="footer__sec2__p2">
+            <p>Cookie settings</p>
+        </div>
+        <div class="footer__sec2__p3">
+            <p>🌐 English</p>
+        </div>
+    </div>
+</footer>
+
+</html>
